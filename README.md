@@ -5,30 +5,30 @@
 - Outputs include probability plots, confusion matrix, and full classification report in the notebook `breast_cancer_detection.ipynb`.
 
 ## Types of Breast Cancer:
-1. Ductal Carcinoma In Situ (DCIS)
-    a. Non-invasive
-    b. Confined to milk ducts
-    c. Early stage
-2. Invasive Ductal Carcinoma (IDC)
-    a. Most common type
-    b. Invades surrounding breast tissue
-    c. Can spread to other parts of the body
-3. Invasive Lobular Carcinoma (ILC)
-    a. Originates in milk-producing lobules
-    b. Invades surrounding breast tissue
-    c. Can spread to other parts of the body
-4. Triple-Negative Breast Cancer
-    a. Lacks estrogen, progesterone, and HER2 receptors
-    b. More aggressive
-    c. Limited treatment options
-5. HER2-Positive Breast Cancer
-    a. Overexpresses HER2 protein
-    b. More aggressive
-    c. Targeted therapies available
-6. Inflammatory Breast Cancer
-    a. Rare and aggressive
-    b. Causes redness and swelling
-    c. Often diagnosed at a later stage
+1. Ductal Carcinoma In Situ (DCIS)  
+    a. Non-invasive  
+    b. Confined to milk ducts  
+    c. Early stage  
+2. Invasive Ductal Carcinoma (IDC)  
+    a. Most common type  
+    b. Invades surrounding breast tissue  
+    c. Can spread to other parts of the body  
+3. Invasive Lobular Carcinoma (ILC)  
+    a. Originates in milk-producing lobules  
+    b. Invades surrounding breast tissue  
+    c. Can spread to other parts of the body  
+4. Triple-Negative Breast Cancer  
+    a. Lacks estrogen, progesterone, and HER2 receptors  
+    b. More aggressive  
+    c. Limited treatment options  
+5. HER2-Positive Breast Cancer  
+    a. Overexpresses HER2 protein  
+    b. More aggressive  
+    c. Targeted therapies available  
+6. Inflammatory Breast Cancer  
+    a. Rare and aggressive  
+    b. Causes redness and swelling  
+    c. Often diagnosed at a later stage  
 
 ## Symptoms of Breast Cancer:
 1. Lump in the breast or underarm
@@ -61,9 +61,9 @@
 7. Genetic testing
 
 ## Treatment Options for Breast Cancer:
-1. Surgery
-    a. Lumpectomy
-    b. Mastectomy
+1. Surgery  
+    a. Lumpectomy  
+    b. Mastectomy  
 2. Radiation therapy
 3. Chemotherapy
 4. Hormone therapy
