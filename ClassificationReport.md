@@ -1,7 +1,7 @@
 Accuracy:
 Accuracy is the ratio of correctly predicted instances (both true positives and true negatives) to the total number of instances. It provides an overall measure of how well the model performs.
 
-![Accuracy](https://render.githubusercontent.com/render/math?math=%5Ctext%7BAccuracy%7D%20%3D%20%5Cfrac%7BTP%20%2B%20TN%7D%7BTP%20%2B%20TN%20%2B%20FP%20%2B%20FN%7D)
+$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$
 
 Where:
 - $TP$ = True Positives
@@ -12,7 +12,7 @@ Where:
 Precision:
 Precision is the ratio of true positive predictions to the total number of positive predictions made by the model. It indicates how many of the predicted positive instances are actually positive.
 
-![Precision](https://render.githubusercontent.com/render/math?math=%5Ctext%7BPrecision%7D%20%3D%20%5Cfrac%7BTP%7D%7BTP%20%2B%20FP%7D)
+$\text{Precision} = \frac{TP}{TP + FP}$
 
 Where:
 - $TP$ = True Positives
@@ -21,7 +21,7 @@ Where:
 Recall:
 Recall, also known as sensitivity or true positive rate, is the ratio of true positive predictions to the total number of actual positive instances. It measures how well the model identifies positive instances.
 
-![Recall](https://render.githubusercontent.com/render/math?math=%5Ctext%7BRecall%7D%20%3D%20%5Cfrac%7BTP%7D%7BTP%20%2B%20FN%7D)
+$\text{Recall} = \frac{TP}{TP + FN}$
 
 Where:
 - $TP$ = True Positives
@@ -30,7 +30,7 @@ Where:
 F1-Score:
 The F1-Score is the harmonic mean of precision and recall. It provides a single metric that balances both precision and recall, especially useful when the class distribution is imbalanced.
 
-![F1-Score](https://render.githubusercontent.com/render/math?math=%5Ctext%7BF1-Score%7D%20%3D%202%20%5Ctimes%20%5Cfrac%7B%5Ctext%7BPrecision%7D%20%5Ctimes%20%5Ctext%7BRecall%7D%7D%7B%5Ctext%7BPrecision%7D%20%2B%20%5Ctext%7BRecall%7D%7D)
+$\text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
 
 Where:
 - Precision = $\frac{TP}{TP + FP}$
