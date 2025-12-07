@@ -1,3 +1,9 @@
+## Project Overview
+- Built a logistic regression classifier using the scikit-learn Breast Cancer Wisconsin dataset.
+- Trained and evaluated on a held-out test split (143 samples), achieving ~0.94 accuracy.
+- Key test metrics: precision 0.92/0.95, recall 0.91/0.96 for the two classes; confusion matrix [[48, 5], [4, 86]].
+- Outputs include probability plots, confusion matrix, and full classification report in the notebook `breast_cancer_detection.ipynb`.
+
 ## Types of Breast Cancer:
 1. Ductal Carcinoma In Situ (DCIS)
     a. Non-invasive
@@ -73,4 +79,3 @@
 5. Eating a balanced diet
 6. Avoiding hormone replacement therapy when possible
 7. Discussing genetic testing with a healthcare provider if at high risk
-
